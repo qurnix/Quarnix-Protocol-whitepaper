@@ -1,97 +1,122 @@
-Quarnix Protocol – Whitepaper
-
-Gasless Layer-2 for Instant Transactions & Seamless Web3 Adoption
-
+Quarnix Protocol: Whitepaper
 
 1. Introduction
 
-Quarnix is a next-generation Layer-2 protocol designed to eliminate transaction fees, reduce latency, and provide seamless cross-chain interoperability. With a hybrid architecture leveraging zk-Rollups and Optimistic Scaling, Quarnix empowers developers and users alike to experience secure, scalable, and frictionless Web3 adoption.
-
-
+Quarnix Protocol is a next-generation Layer-2 blockchain infrastructure designed to eliminate transaction fees, provide instant finality, and offer seamless cross-chain interoperability. Built with a hybrid ZK-Rollup and Optimistic Execution architecture, Quarnix aims to accelerate Web3 adoption by delivering high scalability, enhanced security, and a user-friendly developer ecosystem.
 
 2. Problem Statement
 
-Despite the growth of blockchain technology, many challenges remain:
+Despite rapid innovation in blockchain technology, mainstream adoption is hindered by several key issues:
 
-- **Complex User Experience**: Web3 onboarding is difficult for non-tech users.
-- **High Gas Fees**: Transactions on Layer-1 networks are often expensive.
-- **Slow Transaction Finality**: Delays occur with complex operations.
-- **Poor Interoperability**: Isolated blockchains lack seamless interaction.
+High Gas Fees: Most users are deterred by the cost of transactions on popular Layer-1 chains.
 
+Complex UX: Wallet creation, seed phrases, and managing gas tokens present high barriers to entry.
 
+Scalability Constraints: Many networks struggle with finality and throughput under high load.
 
-3. Our Solution – Quarnix Protocol
-
-- **Zero Gas Fee for Users**: Meta-transactions and relayer infrastructure cover fees on behalf of users.
-- **Fast Finality & Modular Design**: Designed for speed with upgradeable modular components.
-- **ZK-Enhanced Security**: Scalable, private, and verifiable using zero-knowledge proofs.
-- **Cross-Chain Interoperability**: Native integration with Ethereum, Polygon, BNB Chain, and Solana (planned).
-- **Token Utility ($QRX)**: Used for governance, backend gas subsidies, and staking.
+Poor Interoperability: Siloed networks make cross-chain dApps difficult to build and maintain.
 
 
+3. Our Solution: The Quarnix Protocol
 
-4. Key Components
+Key Features
 
-- **Hybrid Execution Layer**: Combines zk-Rollups for integrity and optimistic strategies for speed.
-- **Decentralized Relayer Network**: Handles transaction fees transparently for users.
-- **Gas Subsidy Pool**: Funded via staking and DAO mechanisms to sustain gasless operations.
+Zero Gas Fees for Users: Relayer architecture covers transaction fees on behalf of users.
 
+ZK-Enhanced Security: ZK-proofs verify transaction integrity without compromising user privacy.
 
+Fast Finality: Transactions confirm in seconds, not minutes.
 
-5. Tokenomics (QRX Token)
+Cross-Chain Interoperability: Native compatibility with Ethereum, BNB Chain, Polygon, and Solana.
 
-- **Governance**: Proposals and protocol upgrades.
-- **Fee Subsidy**: Funds gas costs via relayer incentive model.
-- **Staking**: For validators and relayers.
-- **Rewards**: For early adopters and active users.
+Modular Architecture: Flexible infrastructure for developers to build scalable dApps.
 
 
+4. System Architecture
 
-6. Roadmap
+Quarnix integrates three major components:
 
-Q2 2025
-- Fundraising via PinkSale
-- Prototype relayer & GitHub launch
-- Publish pitchdeck & tokenomics
+ZK-Rollup Layer: Compresses and verifies transactions off-chain using zero-knowledge proofs.
 
-Q3 2025
-- Launch Devnet (Gasless TX Test)
-- Build relayer node infra
-- Pitch to incubators (Polygon Village, OP Stack, etc.)
+Optimistic Execution Engine: Enables fast confirmations with fraud-proof mechanisms.
 
-Q4 2025
-- Launch Public Testnet
-- List QRX token
-- Developer onboarding & airdrop program
+Decentralized Relayer Network: Sponsors transaction fees and ensures UX parity with Web2.
 
 
+5. Tokenomics
 
-7. Vision
+Token Name: QRX
+Total Supply: 1,000,000,000
+Utilities:
 
-> “To build Indonesia’s first Layer-2 protocol and accelerate borderless Web3 adoption with zero friction.”
+Payment for relayer backend fees
 
+Governance and protocol upgrades
+
+Staking to secure relayer and validator pools
+
+Incentives for active users and early adopters
+
+
+6. Product Stack
+
+Quarnix Protocol: The core Layer-2 infrastructure
+
+QRX Token: Utility token for payments, governance, and staking
+
+Quarnix Smart Wallet (Roadmap): Account Abstraction-based wallet with gasless support
+
+Quantum Narrative Chain: Modular execution layer with superior UX for cross-chain dApps
+
+
+7. Roadmap
+
+Q2 2025:
+
+PinkSale fundraising
+
+Core team formation
+
+Prototype relayer system and whitepaper release
+
+
+Q3 2025:
+
+Devnet release with gasless transaction test
+
+Integration with zkEVM-compatible chains
+
+Relayer pool and subsidy contract launch
+
+
+Q4 2025:
+
+Public testnet launch
+
+Token listing and airdrop
+
+Ecosystem grants for developers and community
 
 
 8. References
 
-Vitalik Buterin – A rollup-centric Ethereum roadmap
+Ethereum Rollups: Vitalik Buterin, 2021
 
-StarkWare – zk-Rollup Architecture and Scaling
+zkSync Documentation: Matter Labs
 
-Optimism Docs – The Optimistic Rollup Design
+Optimism Stack Guide
 
-Ethereum Foundation – Layer 2 scaling solutions
-
-Chainlink BUILD – Ecosystem accelerator program
-
-Polygon Village – Support for builders & projects on Polygon
-
-Arbitrum Docs – Rollup vs AnyTrust Explained
+Account Abstraction ERC-4337 Overview
 
 
+9. License
 
-9. Contact
+MIT License — see LICENSE for full details.
 
-- GitHub : [github.com/quarnix-protocol](https://github.com/quarnix-protocol)
-- Email quarnixprotokol@gmail.com
-- Maintained by founder (Indonesia-based)
+10. Contact
+
+Maintainer: @quarnix-protocol (GitHub)
+Website: Coming Soon
+**
+
+
